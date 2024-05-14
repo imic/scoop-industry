@@ -5,12 +5,12 @@
     "license": "",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/imic/backup/raw/main/ModRSsim2_Setup.msi",
-            "hash": "8a3928275c0df78c2af30f067dbd62674047e11d74479be76336c9bb4430210e"
+            "url": "https://github.com/imic/backup/raw/main/ModRSsim2.7z",
+            "hash": "9dd953a65c9d986fea15d39df9c87bb76dbf574c110117524d53a1fb3ec758c6"
         },
         "64bit": {
-            "url": "https://github.com/imic/backup/raw/main/ModRSsim2_Setup.msi",
-            "hash": "8a3928275c0df78c2af30f067dbd62674047e11d74479be76336c9bb4430210e"
+            "url": "https://github.com/imic/backup/raw/main/ModRSsim2.7z",
+            "hash": "9dd953a65c9d986fea15d39df9c87bb76dbf574c110117524d53a1fb3ec758c6"
         }
     },
         "bin": [
@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/imic/backup/raw/main/ModRSsim2_Setup.msi"
+                "url": "https://github.com/imic/backup/raw/main/ModRSsim2.7z"
             },
             "64bit": {
-                "url": "https://github.com/imic/backup/raw/main/ModRSsim2_Setup.msi"
+                "url": "https://github.com/imic/backup/raw/main/ModRSsim2.7z"
             }
         },
         "hash": {
