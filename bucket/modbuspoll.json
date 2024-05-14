@@ -1,0 +1,37 @@
+{
+    "version": "10.9.0",
+    "description": "一个modbuspoll程序",
+    "homepage": "http://www.modbustools.com",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7z",
+            "hash": "6fa7cb3b3c0b1049dd31a15819ae53e2878ff5b82a3044f3cfb1948d9234dc92"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
+    "bin": [
+        "mbpoll.exe",
+        "mbpoll.exe"
+    ],
+    "shortcuts": [
+        [
+            "mbpoll.exe",
+            "modbuspoll"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.modbustools.com/download.html",
+        "regex": "Modbus Poll version\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

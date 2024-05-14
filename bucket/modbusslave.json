@@ -1,0 +1,37 @@
+{
+    "version": "9.3.2",
+    "description": "一个modbusslave程序",
+    "homepage": "http://www.modbustools.com",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.modbustools.com/download/ModbusSlaveSetup64Bit.exe#/dl.7z",
+            "hash": "05ce8af0bab2cb5fabbb64b9e525d646527b677ce29845eba50a8b6eed0211f1"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
+    "bin": [
+        "mbslave.exe",
+        "mbslave.exe"
+    ],
+    "shortcuts": [
+        [
+            "mbslave.exe",
+            "mbslave"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.modbustools.com/download.html",
+        "regex": "Modbus Slave version\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.modbustools.com/download/ModbusSlaveSetup64Bit.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
