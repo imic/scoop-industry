@@ -15,12 +15,12 @@
         }
     },
         "bin": [
-        "modscan32.exe"
+        "ModRSsim2.exe"
     ],
     "shortcuts": [
         [
-            "modscan32.exe",
-            "modscan32"
+            "ModRSsim2.exe",
+            "ModRSsim2"
         ]
     ],
     "checkver": {
