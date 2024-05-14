@@ -1,0 +1,36 @@
+{
+    "version": "3.8.504",
+    "description": "niagaraax",
+    "homepage": "https://support.innon.com/Tridium_Niagara/NiagaraAX/Vykon_Installs",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "http://support.innon.com/Tridium_Niagara/NiagaraAX/Vykon_Installs/Vykon_AX_Supervisor-3.8.504.zip#/dl.7z",
+            "hash": "7ddddd7503a630cb740a12fb730fa7a2a9b0c90d8c090825dc472a2066b84aba"
+        }
+    },
+        "bin": [
+        "bin\wb_w.exe",
+        "bin\wb_w.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\wb_w.exe",
+            "wb.exe"
+        ]
+    ],
+    "checkver": {
+        "url": "http://support.innon.com/Tridium_Niagara/NiagaraAX/Vykon_Installs/",
+        "regex": "a\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://support.innon.com/Tridium_Niagara/NiagaraAX/Vykon_Installs/Vykon_AX_Supervisor-3.8.504.zip#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
