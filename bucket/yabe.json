@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.modbustools.com/download.html",
+        "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer",
         "regex": "Modbus Poll version\\s+([\\d.]+)"
     },
     "autoupdate": {
