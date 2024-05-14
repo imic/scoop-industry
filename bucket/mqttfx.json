@@ -5,7 +5,7 @@
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://web.archive.org/web/20210514230412/https://www.jensd.de/apps/mqttfx/1.7.1/mqttfx-1.7.1-windows-x64.exe#/dl.7z",
+            "url": "https://github.com/SeppPenner/mqttfx171-backup/blob/master/Binaries/mqttfx-1.7.1-windows-x64.exe#/dl.7z",
             "hash": "4adfbb0eee65273bead6ce9885cf064de72d00d437bbaf3b9ff5236634fb6057"
         }
     },
