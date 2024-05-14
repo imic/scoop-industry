@@ -1,4 +1,3 @@
-
 {
     "version": "2024",
     "description": "bacnetscan",
@@ -6,20 +5,20 @@
     "license": "",
     "architecture": {
         "32bit": {
-            "url": "http://120.26.101.172/Download/BACnetScan.zip#/dl.7z",
+            "url": "http://120.26.101.172/Download/BACnetScan.zip",
             "hash": "2598cabac1268e1c2d6bcce8fbcea5b8782a2c569839e56c0b7dc804cdb56e49"
         },
         "64bit": {
-            "url": "http://120.26.101.172/Download/BACnetScan.zip#/dl.7z",
+            "url": "http://120.26.101.172/Download/BACnetScan.zip",
             "hash": "2598cabac1268e1c2d6bcce8fbcea5b8782a2c569839e56c0b7dc804cdb56e49"
         }
     },
         "bin": [
-        "BACnetScan\bacnetscan.exe"
+        "BACnetScan/bacnetscan.exe"
     ],
     "shortcuts": [
         [
-            "BACnetScan\bacnetscan.exe",
+            "BACnetScan/bacnetscan.exe",
             "bacnetscan"
         ]
     ],
