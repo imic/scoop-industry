@@ -1,0 +1,36 @@
+{
+    "version": "1.7.1",
+    "description": "mqttfx",
+    "homepage": " https://www.jensd.de",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://web.archive.org/web/20210514230412/https://www.jensd.de/apps/mqttfx/1.7.1/mqttfx-1.7.1-windows-x64.exe#/dl.7z",
+            "hash": "4adfbb0eee65273bead6ce9885cf064de72d00d437bbaf3b9ff5236634fb6057"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
+    "bin": [
+        "mqttfx.exe"
+    ],
+    "shortcuts": [
+        [
+            "mqttfx.exe",
+            "mqttfx"
+        ]
+    ],
+    "checkver": {
+        "url": " https://www.jensd.de",
+        "regex": "Modbus Poll version\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://web.archive.org/web/20210514230412/https://www.jensd.de/apps/mqttfx/1.7.1/mqttfx-1.7.1-windows-x64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
