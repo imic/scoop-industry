@@ -4,9 +4,13 @@
     "homepage": "https://github.com/sanny32/OpenModScan",
     "license": "MIT License",
     "architecture": {
-        "64bit": {
+        "32bit": {
             "url": "https://github.com/sanny32/OpenModScan/releases/download/1.7.0/qt5-omodscan_1.7.0-1_x86.exe#/dl.7z",
             "hash": "64b57f6b7295979c62147364d55acbea947a403f4c7235727debe09d4a1827dc"
+        },
+        "64bit": {
+            "url": "https://github.com/sanny32/OpenModScan/releases/download/1.7.0/qt5-omodscan_1.7.0-1_amd64.exe#/dl.7z",
+            "hash": "260b519ba472106cb22fd1ee65d36c51f900ac9c9e25485fd3aa3dbc18c869e3"
         }
     },
         "bin": [
@@ -24,8 +28,11 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": {
+            "32bit": {
                 "url": "https://github.com/sanny32/OpenModScan/releases/download/1.7.0/qt5-omodscan_1.7.0-1_x86.exe#/dl.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/sanny32/OpenModScan/releases/download/1.7.0/qt5-omodscan_1.7.0-1_amd64.exe#/dl.7z"
             }
         },
         "hash": {
