@@ -1,7 +1,7 @@
 
 {
     "version": "2024",
-    "description": "modsim32",
+    "description": "bacnetscan",
     "homepage": "http://www.bacnetchina.com/news.asp?cl_id=91",
     "license": "",
     "architecture": {
@@ -15,11 +15,11 @@
         }
     },
         "bin": [
-        "bacnetscan.exe"
+        "BACnetScan\bacnetscan.exe"
     ],
     "shortcuts": [
         [
-            "bacnetscan.exe",
+            "BACnetScan\bacnetscan.exe",
             "bacnetscan"
         ]
     ],
