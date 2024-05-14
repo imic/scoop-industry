@@ -3,9 +3,10 @@
     "description": "yabe",
     "homepage": "https://sourceforge.net/projects/yetanotherbacnetexplorer/",
     "license": "",
+    "innosetup":"true",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer/files/latest/download#/dl.7z",
+            "url": "https://master.dl.sourceforge.net/project/yetanotherbacnetexplorer/SetupYabe_v1.3.2.exe#/dl.7z",
             "hash": "68d730b093258d1bc102361e8f3a714b07676ff42349f563e27eb939d7ea0773"
         }
     },
@@ -26,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer/files/latest/download#/dl.7z"
+                "url": "https://master.dl.sourceforge.net/project/yetanotherbacnetexplorer/SetupYabe_v1.3.2.exe#/dl.7z"
             }
         },
         "hash": {
