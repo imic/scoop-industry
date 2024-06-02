@@ -1,5 +1,5 @@
 {
-    "version": "2024.2-242.10180.30",
+    "version": "2024.1",
     "description": "Cross-Platform IDE for Python by JetBrains. (Community Edition, Early Access Program)",
     "homepage": "https://www.jetbrains.com/rustrover/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://sales.jetbrains.com/hc/en-gb/articles/115001015290-Where-can-I-find-the-EULA-End-User-License-Agreement-"
     },
     "url": "https://download.jetbrains.com/rustrover/RustRover-2024.1.exe#/dl.7z",
-    "hash": "023faf34c65154957427e4b5fd12d7b96a5e73a49fc952eba52b35116820fad1",
+    "hash": "de3a895305e981d62ff12d2e0ccc841da68e66d20bc4975dd29e0fff94abd214",
     "extract_to": "IDE",
     "installer": {
         "script": [
@@ -50,7 +50,7 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/python/pycharm-community-$preReleaseVersion.exe#/dl.7z",
+        "url": "https://download.jetbrains.com/rustrover/RustRover$preReleaseVersion.exe#/dl.7z",
         "hash": {
             "url": "$url.sha256"
         }
