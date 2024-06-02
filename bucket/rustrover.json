@@ -19,13 +19,13 @@
         "64bit": {
             "bin": [
                 [
-                    "IDE\\bin\\rustrover64",
-                    "pycharm"
+                    "IDE\\bin\\rustrover64.exe",
+                    "rustrover"
                 ]
             ],
             "shortcuts": [
                 [
-                    "IDE\\bin\\rustrover64",
+                    "IDE\\bin\\rustrover64.exe",
                     "JetBrains\\rustrover (Early Access Program)"
                 ]
             ]
