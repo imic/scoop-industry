@@ -1,0 +1,42 @@
+{
+    "version": "1.6.0",
+    "description": "OpenModSim",
+    "homepage": "https://github.com/sanny32/OpenModSim",
+    "license": "MIT License",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/sanny32/OpenModSim/releases/download/1.6.0/qt5-omodsim_1.6.0-1_x86.exe#/dl.7z",
+            "hash": "90127c50a15b5902e29682a9ad1e1d042c599fedf9f739026a8d191411675aad"
+        },
+        "64bit": {
+            "url": "https://github.com/sanny32/OpenModSim/releases/download/1.6.0/qt6-omodsim_1.6.0-1_amd64.exe#/dl.7z",
+            "hash": "e33a77ad2237adc0c293381a92bcb8c3622b125365d051aa4805f30bb1126bd2"
+        }
+    },
+        "bin": [
+        "omodsim.exe"
+    ],
+    "shortcuts": [
+        [
+            "omodsim.exe",
+            "openmodsim"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/sanny32/OpenModSim",
+        "regex": "a\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/sanny32/OpenModSim/releases/download/1.6.0/qt6-omodsim_1.6.0-1_amd64.exe#/dl.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/sanny32/OpenModScan/releases/download/1.8.0/qt6-omodscan_1.8.0-1_amd64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
