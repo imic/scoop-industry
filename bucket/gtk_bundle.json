@@ -1,30 +1,33 @@
 {
     "version": "2.22.1-20101229",
     "description": "gtk_bundle",
-    "homepage": "https://www.gtk.org/",
-    "license": "LGPL-2.1",
-    "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip",
-    "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435",
-    "extract_dir": "gtk+-bundle_2.22.1-20101229_win64",
-    "installer": {
-        "script": [
-            "$targetDir = 'c:\\GTK'",
-            "if (!(Test-Path $targetDir)) {",
-            "    New-Item -ItemType Directory -Path $targetDir | Out-Null",
-            "}",
-            "Copy-Item -Recurse -Force $dir\\* $targetDir",
-            "Remove-Item -Recurse -Force $dir"
-        ]
+    "homepage": "https://download.gnome.org",
+    "license": "",
+    "architecture": {
+        "32bit": {
+            "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip",
+            "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435"
+        },
+        "64bit": {
+            "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip",
+            "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435"
+        }
     },
-    "env_set": {
-        "GTK_BASEPATH": "$dir"
-    },
+       
+   
     "checkver": {
-        "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/",
-        "re": "gtk\\+-bundle_([\\d.]+)_win64\\.zip"
+        "url": "https://download.gnome.org",
+        "regex": "a\\s+([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_$version_win64.zip",
+        "architecture": {
+            "32bit": {
+                "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip"
+            },
+            "64bit": {
+                "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip"
+            }
+        },
         "hash": {
             "url": "$url.sha256"
         }
