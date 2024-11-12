@@ -1,0 +1,42 @@
+{
+    "version": "1.4.2",
+    "description": "snap7-tools",
+    "homepage": "https://sourceforge.net/projects/snap7",
+    "license": "",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/imic/backup/blob/main/snap7.7z",
+            "hash": "eecadddcd3c406ff745df29ea0eac1076ce6e3b7c05f400a118893912199f03c"
+        },
+        "64bit": {
+            "url": "https://github.com/imic/backup/blob/main/snap7.7z",
+            "hash": "eecadddcd3c406ff745df29ea0eac1076ce6e3b7c05f400a118893912199f03c"
+        }
+    },
+        "bin": [
+        "serverdemo.exe"
+    ],
+    "shortcuts": [
+        [
+            "serverdemo.exe",
+            "serverdemo.exe"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/snap7",
+        "regex": "a\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/imic/backup/blob/main/snap7.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/imic/backup/blob/main/snap7.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
