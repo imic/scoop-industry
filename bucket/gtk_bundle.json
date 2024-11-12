@@ -13,8 +13,6 @@
             "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435"
         }
     },
-       
-   
     "checkver": {
         "url": "https://download.gnome.org",
         "regex": "a\\s+([\\d.]+)"
@@ -31,5 +29,11 @@
         "hash": {
             "url": "$url.sha256"
         }
-    }
+    },
+    "post_install": [
+        "if (!(Test-Path \"C:\\GTK\")) {",
+        "    New-Item -ItemType Directory -Path \"C:\\GTK\" | Out-Null",
+        "}",
+        "Copy-Item -Recurse -Force \"$dir\\*\" \"C:\\GTK\""
+    ]
 }
