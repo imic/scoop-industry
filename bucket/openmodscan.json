@@ -1,6 +1,6 @@
 {
     "version": "1.8.0",
-    "description": "openmodscan",
+    "description": "modbus tools",
     "homepage": "https://github.com/sanny32/OpenModScan",
     "license": "MIT License",
     "architecture": {
