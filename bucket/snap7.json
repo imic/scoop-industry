@@ -5,11 +5,11 @@
     "license": "",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/imic/backup/raw/refs/heads/main/snap7.7z",
+            "url": "https://raw.githubusercontent.com/imic/backup/refs/heads/main/snap7.7z",
             "hash": "eecadddcd3c406ff745df29ea0eac1076ce6e3b7c05f400a118893912199f03c"
         },
         "64bit": {
-            "url": "https://github.com/imic/backup/raw/refs/heads/main/snap7.7z",
+            "url": "https://raw.githubusercontent.com/imic/backup/refs/heads/main/snap7.7z",
             "hash": "eecadddcd3c406ff745df29ea0eac1076ce6e3b7c05f400a118893912199f03c"
         }
     },
@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/imic/backup/raw/refs/heads/main/snap7.7z"
+                "url": "https://raw.githubusercontent.com/imic/backup/refs/heads/main/snap7.7z"
             },
             "64bit": {
-                "url": "https://github.com/imic/backup/raw/refs/heads/main/snap7.7z"
+                "url": "https://raw.githubusercontent.com/imic/backup/refs/heads/main/snap7.7z"
             }
         },
         "hash": {
