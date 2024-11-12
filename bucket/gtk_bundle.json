@@ -1,27 +1,27 @@
 {
     "version": "2.22.1-20101229",
-    "description": "GTK+ runtime environment",
+    "description": "gtk_bundle",
     "homepage": "https://www.gtk.org/",
-    "license": "GPL-2.0-or-later",
+    "license": "LGPL-2.1",
     "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip",
     "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435",
+    "extract_dir": "c:\\GTK",
     "installer": {
         "script": [
-            "if (!(Test-Path \"C:\\gtk\")) {",
-            "    New-Item -ItemType Directory -Path \"C:\\gtk\" | Out-Null",
-            "}",
-            "Expand-Archive -Path \"$dir\\gtk+-bundle_2.22.1-20101229_win64.zip\" -DestinationPath \"C:\\gtk\" -Force"
+            "if (!(Test-Path \"$env:GTK_BASEPATH\")) {",
+            "    New-Item -ItemType Directory -Path \"$env:GTK_BASEPATH\" | Out-Null",
+            "}"
         ]
     },
-    "uninstaller": {
-        "script": "Remove-Item -Recurse -Force \"C:\\gtk\""
+    "env_set": {
+        "GTK_BASEPATH": "$dir"
     },
     "checkver": {
         "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/",
-        "re": "gtk\\+-bundle_([\\d.]+)-[\\d_]+_win64\\.zip"
+        "re": "gtk\\+-bundle_([\\d.]+)_win64\\.zip"
     },
     "autoupdate": {
-        "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_$version-20101229_win64.zip",
+        "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_$version_win64.zip",
         "hash": {
             "url": "$url.sha256"
         }
