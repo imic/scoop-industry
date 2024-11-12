@@ -5,12 +5,15 @@
     "license": "LGPL-2.1",
     "url": "https://download.gnome.org/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip",
     "hash": "347c488e266927140c7eb8c90c230d23469b63f74ee1ac403f6783fa68d38435",
-    "extract_dir": "c:\\GTK",
+    "extract_dir": "gtk+-bundle_2.22.1-20101229_win64",
     "installer": {
         "script": [
-            "if (!(Test-Path \"$env:GTK_BASEPATH\")) {",
-            "    New-Item -ItemType Directory -Path \"$env:GTK_BASEPATH\" | Out-Null",
-            "}"
+            "$targetDir = 'c:\\GTK'",
+            "if (!(Test-Path $targetDir)) {",
+            "    New-Item -ItemType Directory -Path $targetDir | Out-Null",
+            "}",
+            "Copy-Item -Recurse -Force $dir\\* $targetDir",
+            "Remove-Item -Recurse -Force $dir"
         ]
     },
     "env_set": {
