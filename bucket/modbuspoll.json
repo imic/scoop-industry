@@ -1,12 +1,12 @@
 {
-    "version": "10.9.0",
-    "description": "一个modbuspoll程序",
+    "version": "10.9.4",
+    "description": "modbuspoll",
     "homepage": "http://www.modbustools.com",
     "license": "",
     "architecture": {
         "64bit": {
             "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7z",
-            "hash": "6fa7cb3b3c0b1049dd31a15819ae53e2878ff5b82a3044f3cfb1948d9234dc92"
+            "hash": "8e2564f10ff6e1f185eeb5d681cc66d647a40e9d877ca579ca0787e6a6b952d1"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7z"
+                "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7zz"
             }
         },
         "hash": {
