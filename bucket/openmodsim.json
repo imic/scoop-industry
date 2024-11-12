@@ -1,6 +1,6 @@
 {
     "version": "1.6.0",
-    "description": "OpenModSim",
+    "description": "OpenModSim modbus",
     "homepage": "https://github.com/sanny32/OpenModSim",
     "license": "MIT License",
     "architecture": {
