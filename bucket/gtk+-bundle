@@ -1,6 +1,6 @@
 {
     "version": "2.22.1",
-    "description": "gtk+-bundle",
+    "description": "gtk",
     "homepage": "https://download.gnome.org/",
     "license": "",
     "architecture": {
