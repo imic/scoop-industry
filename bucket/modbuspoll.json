@@ -1,12 +1,12 @@
 {
-    "version": "10.9.4",
+    "version": "11.0.0",
     "description": "modbuspoll",
     "homepage": "http://www.modbustools.com",
     "license": "",
     "architecture": {
         "64bit": {
             "url": "https://www.modbustools.com/download/ModbusPollSetup64Bit.exe#/dl.7z",
-            "hash": "8e2564f10ff6e1f185eeb5d681cc66d647a40e9d877ca579ca0787e6a6b952d1"
+            "hash": "7f2d52e752c408ebb55f743a9c3a96387db11989f16752c66bf8d6a3212c3277"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
