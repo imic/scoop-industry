@@ -9,8 +9,8 @@
             "hash": "61b98eb69dea9686efad9c5481af6a530b7e2ae60a05845c942205521e6bec65"
         },
         "64bit": {
-            "url": "https://www.win-tech.com/demos/modscan32.zip#/dl.7z",
-            "hash": "61b98eb69dea9686efad9c5481af6a530b7e2ae60a05845c942205521e6bec65"
+            "url": "https://www.win-tech.com/demos/modscan64.zip#/dl.7z",
+            "hash": "c8b91189fce910121498c4142126c4559586867731a6486ffc0f035fa263e6c5"
         }
     },
         "bin": [
@@ -32,7 +32,7 @@
                 "url": "https://www.win-tech.com/demos/modscan32.zip#/dl.7z"
             },
             "64bit": {
-                "url": "https://www.win-tech.com/demos/modscan32.zip#/dl.7z"
+                "url": "https://www.win-tech.com/demos/modscan64.zip#/dl.7z"
             }
         },
         "hash": {
