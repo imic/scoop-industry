@@ -1,12 +1,12 @@
 {
-    "version": "9.4.3",
+    "version": "9.5.0",
     "description": "modbusslave",
     "homepage": "http://www.modbustools.com",
     "license": "",
     "architecture": {
         "64bit": {
             "url": "https://www.modbustools.com/download/ModbusSlaveSetup64Bit.exe#/dl.7z",
-            "hash": "61ce465c3d1ce47ec06c22464a63f1a9a3fecc20f3c1f4b82ee859d9e90083ce"
+            "hash": "b1150768a3fce7457bc78da27ce8bb20576f4d8564a7b18de02eeb4671b86b4a"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
