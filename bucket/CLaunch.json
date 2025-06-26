@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/cl64_410.zip#/dl.7z",
-            "hash": "e76cfa8070ea0f1dd74da2fbddd30f911047141ba559040cec168f3a9ee931e6"
+            "hash": "efd8693cb262c408fd1b921c1bfa3c969335831eb677261abc7db902cee8a80b"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
