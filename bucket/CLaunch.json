@@ -1,0 +1,37 @@
+{
+    "version": "4.10",
+    "description": "CLaunch 64bit",
+    "homepage": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/claunch.html",
+    "license": "",
+    "innosetup":"true",
+    "architecture": {
+        "64bit": {
+            "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/cl64_410.zip#/dl.7z",
+            "hash": "e76cfa8070ea0f1dd74da2fbddd30f911047141ba559040cec168f3a9ee931e6"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
+    "bin": [
+        "CLaunch.exe"
+    ],
+    "shortcuts": [
+        [
+            "CLaunch.exe",
+            "CLaunch.exe"
+        ]
+    ],
+    "checkver": {
+        "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/claunch.html",
+        "regex": "MCLaunch 64bit\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/cl64_410.zip#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
