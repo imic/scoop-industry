@@ -1,13 +1,13 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "yabe",
     "homepage": "https://sourceforge.net/projects/yetanotherbacnetexplorer/",
     "license": "",
     "innosetup":"true",
     "architecture": {
         "64bit": {
-            "url": "https://master.dl.sourceforge.net/project/yetanotherbacnetexplorer/SetupYabe_v2.0.0.exe#/dl.7z",
-            "hash": "2483d86c1deccb6b23eb4d69d2cd00625ff2edce113ff875abb3f6457a52438e"
+            "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer/files/Yabe_v2.1.0.zip#/dl.7z",
+            "hash": "557b524f08d3ea991367887b5a9365c90e2fa1b213f6c162dfdd43ce2ea8d4bc"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://master.dl.sourceforge.net/project/yetanotherbacnetexplorer/SetupYabe_v2.0.0.exe#/dl.7z"
+                "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer/files/Yabe_v2.1.0.zip#/dl.7z"
             }
         },
         "hash": {
