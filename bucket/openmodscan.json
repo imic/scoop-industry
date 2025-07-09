@@ -1,16 +1,16 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.2",
     "description": "modbus tools",
     "homepage": "https://github.com/sanny32/OpenModScan",
     "license": "MIT License",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.0/qt5-omodscan_1.9.0-1_x86.exe#/dl.7z",
-            "hash": "d365c5f2a4da4c5c2ea9dc2817ff4e77709e3c6b810e5644550cecd68aa67c21"
+            "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.2/qt5-omodscan_1.9.2-1_x86.exe#/dl.7z",
+            "hash": "c8ac653f5815cac1a848ec85564d42c3c65350ddfad03ffd67e646f584629655"
         },
         "64bit": {
-            "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.0/qt5-omodscan_1.9.0-1_amd64.exe#/dl.7z",
-            "hash": "65911072cbd2f3ec5041f8d4b54bd30be0bb4c5f56731ccecbb078d0d550183d"
+            "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.2/qt5-omodscan_1.9.2-1_amd64.exe#/dl.7z",
+            "hash": "6cd7822a57ee58ccb3dff11a2d40f5e1d4e769cdbb9a7d7b4288b50afd9f97c0"
         }
     },
         "bin": [
@@ -32,7 +32,7 @@
                 "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.0/qt5-omodscan_1.9.0-1_x86.exe#/dl.7z"
             },
             "64bit": {
-                "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.0/qt5-omodscan_1.9.0-1_amd64.exe#/dl.7z"
+                "url": "https://github.com/sanny32/OpenModScan/releases/download/1.9.2/qt5-omodscan_1.9.2-1_amd64.exe#/dl.7z"
             }
         },
         "hash": {
