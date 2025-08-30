@@ -5,11 +5,11 @@
     "license": "",
     "architecture": {
         "32bit": {
-            "url": "https://downloads.onesight.solutions/Tridium/Niagara%20AX%20Supervisor%20Downloads/Windows/Vykon_AX_Supervisor-3.6.407.zip",
+            "url": "https://drive.google.com/file/d/1kq_TKwx6w25Zl37YyZ6bEjeQLLFfn2ct/view?usp=sharing.zip",
             "hash": "9a38d557496cf976f2f613135f32bba0ee92af9bce8fbcc571423352e8d78970"
         },
         "64bit": {
-            "url": "https://downloads.onesight.solutions/Tridium/Niagara%20AX%20Supervisor%20Downloads/Windows/Vykon_AX_Supervisor-3.6.407.zip",
+            "url": "https://drive.google.com/file/d/1kq_TKwx6w25Zl37YyZ6bEjeQLLFfn2ct/view?usp=sharing",
             "hash": "9a38d557496cf976f2f613135f32bba0ee92af9bce8fbcc571423352e8d78970"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://downloads.onesight.solutions/Tridium/Niagara%20AX%20Supervisor%20Downloads/Windows/Vykon_AX_Supervisor-3.6.407.zip"
+                "url": "https://drive.google.com/file/d/1kq_TKwx6w25Zl37YyZ6bEjeQLLFfn2ct/view?usp=sharing.zip"
             },
             "64bit": {
-                "url": "https://downloads.onesight.solutions/Tridium/Niagara%20AX%20Supervisor%20Downloads/Windows/Vykon_AX_Supervisor-3.6.407.zip"
+                "url": "https://drive.google.com/file/d/1kq_TKwx6w25Zl37YyZ6bEjeQLLFfn2ct/view?usp=sharing.zip"
             }
         },
         "hash": {
