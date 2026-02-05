@@ -1,5 +1,5 @@
 {
-    "version": "12.2.0 Build 2516",
+    "version": "12.2.0Build2516",
     "description": "modbuspoll",
     "homepage": "http://www.modbustools.com",
     "license": "",
@@ -35,4 +35,5 @@
         }
     }
 }
+
 
