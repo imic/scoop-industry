@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/yetanotherbacnetexplorer/files/Yabe_v2.1.0.zip#/dl.7z",
-            "hash": "557b524f08d3ea991367887b5a9365c90e2fa1b213f6c162dfdd43ce2ea8d4bc"
+            "hash": "050101d4539b3be19003275e56c65443d0e8721603a309310dd7a485971b0e0b"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force",
