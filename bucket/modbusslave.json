@@ -1,5 +1,5 @@
 {
-    "version": "10.0.0Build2493 ",
+    "version": "10.0.0Build2493",
     "description": "modbusslave",
     "homepage": "http://www.modbustools.com",
     "license": "",
@@ -35,5 +35,6 @@
         }
     }
 }
+
 
 
